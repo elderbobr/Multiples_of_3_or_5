@@ -4,7 +4,7 @@ using namespace std;
 int Multiples(int a) {
     int sum = 0;
     for (int i = 0; i < a; i++) {
-        if (a % 3 == 0 || a % 5 == 0) {
+        if (i % 3 == 0 || i % 5 == 0) {
             sum += i;
         }
     }
